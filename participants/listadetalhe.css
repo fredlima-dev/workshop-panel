@@ -1,0 +1,25 @@
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1.0rem;
+    font-weight: 500;
+    line-height: 1.9;
+}
+
+body {
+    background: #f5f5f5;
+  }
+  
+  .navbar .nav-item:not(:last-child) {
+    margin-right: 35px;
+  }
+  
+  .dropdown-toggle::after {
+     transition: transform 0.15s linear; 
+  }
+  
+  .show.dropdown .dropdown-toggle::after {
+    transform: translateY(3px);
+  }
+  
+  .dropdown-menu {
+    margin-top: 0;
+  }
